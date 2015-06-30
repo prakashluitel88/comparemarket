@@ -1,0 +1,40 @@
+{
+    "name": "authority-php/authority-laravel",
+    "type": "library",
+    "description": "A simple and flexible authorization system for PHP",
+    "keywords": ["laravel", "laravel 5", "authentication", "authorization"],
+    "homepage": "https://github.com/authority-php/authority-laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthew Machuga",
+            "email": "machuga@gmail.com"
+        },
+        {
+            "name": "Koen Schmeets",
+            "email": "hello@koenschmeets.nl"
+        },
+        {
+            "name": "Jesse O'Brien",
+            "email": "jesse@jesse-obrien.ca"
+        },
+        {
+            "name": "Conar Welsh",
+            "email": "conar@welshlabs.com"
+        },
+        {
+            "name": "Tortue Torche",
+            "email": "tortuetorche@spam.me"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.0",
+        "authority-php/authority" : "~2.2.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "Authority\\AuthorityLaravel": "src/"
+        }
+    }
+}
