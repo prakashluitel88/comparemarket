@@ -1,4 +1,4 @@
-<?php // This is for check purposed
+<?php
 
 /**
  * Laravel - A PHP Framework For Web Artisans
