@@ -1,0 +1,43 @@
+{
+    "name": "authority-php/authority",
+    "description": "A simple and flexible authorization system for PHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthew Machuga",
+            "email": "machuga@gmail.com"
+        },
+        {
+            "name": "Koen Schmeets",
+            "email": "hello@koenschmeets.nl"
+        },
+        {
+            "name": "Jesse O'Brien",
+            "email": "jesse@jesse-obrien.ca"
+        },
+        {
+            "name": "Tortue Torche",
+            "email": "tortuetorche@spam.me"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/events": "~5.0"
+    },
+    "require-dev": {
+        "jeremeamia/superclosure": "~2.0",
+        "phpunit/phpunit": "3.7.*",
+        "mockery/mockery": "0.7.*"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-0": {
+            "Authority": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.2.x-dev"
+        }
+    }
+}
