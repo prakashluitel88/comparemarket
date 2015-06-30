@@ -38,8 +38,8 @@
 	<body>
 		<div class="container">
 			<div class="content">
-				<div class="title">Laravel 5</div>
-				<div class="quote">{{ Inspiring::quote() }}</div>
+				<div class="title">Welcome</div>
+				<div class="quote">Compare Market By  LPrakash</div>
 			</div>
 		</div>
 	</body>
